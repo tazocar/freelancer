@@ -1,3 +1,321 @@
 /*
  * Estilos de tu proyecto
  */
+ /*
+
+ #2c3e50
+ #18bc9c
+ #212529
+
+ */
+body{
+	margin:0px;
+	font-family: 'Montserrat', sans-serif;
+}
+/*Menú superior*/
+header{
+	background-color: #2c3e50;
+	height: 108px;
+	width: 100%;
+	position: fixed;
+	top: 0;	
+	z-index: 2;
+}
+.menu{
+	width: 1125px;
+}
+header a{
+	color:#FFF;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1em;
+	letter-spacing: 1px;
+	float: right;
+	margin: 2.75em 0.5em 0.5em 0.5em;
+}
+header a:hover{
+	color:#18bc9c;
+}
+a.home-menu h2{
+	margin: 0;
+	color:#FFF;
+}
+a.home-menu{
+	float: left;
+	font-size: 1.35em;
+	margin-top: 0;
+	color:#FFF;
+	margin-top: 1.5em;
+}
+a.home-menu:hover{
+	color:#FFF;
+}
+/*Sección Start Bootstrap*/
+.start{
+	padding-top: 200px;
+	padding-bottom: 60px;
+	width: 100%;
+	background:#18bc9c;
+}
+.center {
+    display: block;
+    margin: 0 auto;
+}
+h3{
+	font-size: 4.75em;
+	text-align: center;
+	color:#FFF;
+	line-height: 1.5px;
+}
+
+.skills{
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-size: 1.75em;
+	margin-top: 0;
+	color:#FFF;
+}
+/*Fin Sección Start Bootstrap*/
+
+/*Inicio Sección Portfolio*/
+.portfolio{
+	width: 1320px;
+	background:#FFF;
+	padding-top: 60px;
+	padding-bottom:80px;
+}
+
+.h-blue{
+	color:#212529;
+	font-size: 3em;
+	text-align: center;
+	margin: 0;
+	line-height: 2em;
+}
+
+/*Inicio Efecto Lupa*/
+.trans{
+	width: 350px;
+	height: 254px;
+	background: #18bc9c;
+	text-align: center;
+	display: inline-block;
+	margin:15px 15px 17px 15px;
+	font-size: 4em;
+	color:#FFF;
+	line-height: 4em;
+	opacity: 0;
+	transition: opacity ease .6s;
+}
+.trans:hover{
+	opacity: .9;
+
+}
+.trans-top{
+	position: absolute;
+	width: 1320px;
+}
+/*Fin Efecto Lupa*/
+.portfolio img{
+	width: 350px;
+	display: inline-block;
+	margin: 15px;
+}
+.div-center{
+	margin: auto;
+    width: 90%;
+}
+/*Fin Sección Portafolio*/
+/*Inicio Sección About*/
+.about{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	width: 100%;
+	background:#18bc9c;
+}
+.about h4{
+	color:#FFF;
+	font-size: 3em;
+	text-align: center;
+	margin: 0;
+	line-height: 2em;
+}
+.text-container p{
+	font-family: 'Lato', sans-serif;
+	display: inline-block;
+	width: 340px;
+	text-align: left;
+	margin:0 15px 15px 15px;
+	color:#FFF;
+	font-size: 1.2em;
+	line-height: 1.6em;
+	vertical-align: text-top;
+}
+.text-container{
+	text-align: center;
+	padding-top: 20px;
+}
+/*Boton Download*/
+.btn-cont{
+	width: 100%;
+	text-align: center;
+}
+.btn{
+	border-radius: 5px;
+	border:2px solid #FFF;
+	font-family: 'Lato', sans-serif;
+	color:#FFF;
+	display: inline-block;
+	padding:10px;
+	font-size: 1.3em;
+	transition: all ease .6s;
+}
+.btn:hover{
+	color:#18bc9c;
+	background: #FFF;
+}
+/*Fin Boton Download*/
+/*Fin Sección About*/
+/*Inicio Sección contact*/
+.contact{
+	width: 100%;
+	background:#FFF;
+	padding-top: 60px;
+	padding-bottom:80px;
+}
+.formulario{
+	text-align: center;
+	padding-bottom: 80px;
+	width: 720px;
+}
+input{
+	width: 700px;
+	padding: 10px 10px 30px 10px;
+	border:none;
+	font-size: 1.5em;
+	outline: none;
+	color:#6f6f6f;
+	margin-top: 10px;
+	font-family: 'Lato', sans-serif;
+}
+.formulario hr{
+	width: 700px;
+	border:none;
+	border-bottom: 1px solid #eee ;
+	margin-top: 10px;
+}
+.formulario hr:last-of-type{
+	width: 700px;
+	border:none;
+	border-bottom: 1px solid #eee ;
+	margin-top: 170px;
+}
+.btn-dos{
+	border-radius: 5px;
+	font-family: 'Lato', sans-serif;
+	color:#FFF;
+	background: #18bc9c;
+	display: inline-block;
+	padding:10px 15px;
+	font-size: 1.3em;
+	float: left;
+	transition: color ease .6s;
+}
+.btn-dos:hover{
+	color:#FFF;
+	background: #009878;
+}
+/*Fin Sección Contacto*/
+/*inicio footer*/
+footer{
+	width: 100%;
+	background:#2c3e50;
+	text-align: center;
+	padding-bottom: 10px;
+	font-family: 'Lato', sans-serif;
+	color:#FFF;
+}
+footer div{
+	display: inline-block;
+	width: 330px;
+	vertical-align: text-top;
+	margin:20px 20px 60px 20px;
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+footer h4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.4em;
+	margin-top: 1em;
+
+}
+/*Inicio botones social footer*/
+.social{
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+.social li{
+	list-style: none;
+	display: inline-block;
+	margin-right:4px;
+}
+.social li a{
+	list-style: none;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	font-size: 1.2em;
+	line-height: 2.1em;
+	border-radius: 50%;
+	border:2px solid #FFF;
+	color:#FFF;
+	transition: all ease .6s;
+}
+.social li a:hover{
+	color:#009878;
+	background:#FFF;
+}
+/*Fin Botones social footer*/
+/*Fin Sección footer*/
+
+/*Estrellas con :after*/
+hr.star-white{
+	border:none;
+	border-top:5px solid #FFF;
+	width:250px;
+	margin: 25px auto 0;
+	/*overflow: visible para que la estrella se vea sobre la línea*/
+	overflow: visible;
+	text-align: center;
+}
+hr.star-white:after{
+	font-family: FontAwesome;
+	content: "\f005";
+	font-size:2em;
+	color: #FFF;
+	background-color: #18bc9c;
+	position: relative;
+	top: -.6em;
+	padding: 0.25em;
+}
+
+hr.star-blue{
+	border:none;
+	border-top:5px solid #2c3e50;
+	width:250px;
+	margin: 25px auto 0;
+	/*overflow: visible para que la estrella se vea sobre la línea*/
+	overflow: visible;
+	text-align: center;
+}
+hr.star-blue:after{
+	font-family: FontAwesome;
+	content: "\f005";
+	font-size:2em;
+	color: #2c3e50;
+	background-color: #FFF;
+	position: relative;
+	top: -.6em;
+	padding: 0.25em;
+}
